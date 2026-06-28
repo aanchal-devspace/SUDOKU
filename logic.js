@@ -110,7 +110,7 @@ function check() {
                 document.getElementById("message").innerHTML = "Incorrect Solution!,try again";
                 return;
             }
-            if (cvalue < 1 || cvalue > 9 || row.includes(cvalue)) {
+            if (cvalue < 1 || cvalue > 9 || col.includes(cvalue)) {
                 document.getElementById("message").innerHTML = "Incorrect Solution!,try again";
                 return;
             }
